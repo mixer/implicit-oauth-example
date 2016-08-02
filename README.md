@@ -6,11 +6,11 @@ An example site for carrying out the implicit OAuth Flow with Beam.
 
 1. Using a webserver redirect a url on that server  e.g. `interactive.example.com/request` to the Beam OAuth authorize page with your OAuth Client Id and Scopes filled out:
 
-  `https://beam.pro/oauth/authorize?response_type=code&redirect_uri=<redirecturl>&scope=<scopes>&client_id=<clientid>`
+  `https://beam.pro/oauth/authorize?response_type=token&redirect_uri=<redirecturl>&scope=<scopes>&client_id=<clientid>`
 
   Example url:
 
-  `https://beam.pro/oauth/authorize?response_type=code&redirect_uri=https://interactive.example.com&scope=tetris:robot:self&client_id=abc123456`
+  `https://beam.pro/oauth/authorize?response_type=token&redirect_uri=https://interactive.example.com&scope=tetris:robot:self&client_id=abc123456`
 
 1. Ensure your redirect uri sends users to the index of this repository.
 
