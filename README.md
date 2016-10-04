@@ -10,7 +10,7 @@ An example site for carrying out the implicit OAuth Flow with Beam.
 
   Example url:
 
-  `https://beam.pro/oauth/authorize?response_type=token&redirect_uri=https://interactive.example.com&scope=tetris:robot:self&client_id=abc123456`
+  `https://beam.pro/oauth/authorize?response_type=token&redirect_uri=https://interactive.example.com&scope=interactive:robot:self&client_id=abc123456`
 
 1. Ensure your redirect uri sends users to the index of this repository.
 
