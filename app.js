@@ -13,7 +13,7 @@ if (access_token !== "An error has occurred") {
     deselect();
   });
 } else {
-	document.querySelector(".hint .onerror").classList.add('show');
+  document.querySelector(".hint .onerror").classList.add('show');
 }
 
 function getAccessToken() {

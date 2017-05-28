@@ -50,12 +50,15 @@ body {
   font-family: "Roboto", sans-serif;
   margin-top: 8px;
 }
+
 .hint a {
   color: inherit;
 }
+
 .hint > span {
   display: none;
 }
+
 .hint > span.show {
   display: initial;
 }
