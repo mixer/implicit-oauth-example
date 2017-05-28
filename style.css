@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: rgb(10, 6, 23);
+  background: rgb(3, 33, 79) url(images/home.jpg) no-repeat center / cover;
   overflow: hidden;
 }
 
