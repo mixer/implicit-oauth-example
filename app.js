@@ -4,12 +4,16 @@ const $code = document.querySelector(".code");
 $code.textContent = access_token;
 
 if (access_token !== "An error has occurred") {
+  document.querySelector(".hint .onsuccess").classList.add('show');
+  
   $code.addEventListener("mouseover", function () {
     select($code);
   });
   $code.addEventListener("mouseout", function () {
     deselect();
   });
+} else {
+  document.querySelector(".hint .onerror").classList.add('show');
 }
 
 function getAccessToken() {
